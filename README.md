@@ -12,6 +12,7 @@ TODO
     - [AJAX and Fetch](#ajax-and-fetch)
     - [React](#react)
 - [Backend](#backend)
+	- [Express](#express)
 - [HTTP](#http)
 - [Tooling](#tooling)
     - [Code Editors](#code-editors)
@@ -20,6 +21,7 @@ TODO
     - [Git](#git)
 	- [Command Line](#command-line)
 - [Miscellaneous](#miscellaneous)
+	- [Resource Lists](#resources-lists)
 ***
 
 
@@ -86,7 +88,9 @@ TODO
 
 ## Backend
 
-<!---->
+### Express
+
+- [Default errors handlers](https://expressjs.com/en/guide/error-handling.html#the-default-error-handler)
 
 
 
@@ -154,6 +158,13 @@ TODO
 
 ## Miscellaneous
 
+- [Rico's Cheatsheets](https://devhints.io/)
+- **Markdown Cheatsheet's**
+	- [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
+	- [Adam P](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+
+### Resource Lists
 - [Free Programming Books](https://ebookfoundation.github.io/free-programming-books/free-programming-books.html)
 - [Free Programming Playgrounds](https://ebookfoundation.github.io/free-programming-books/free-programming-playgrounds.html)
 - [Public APIs](https://github.com/toddmotto/public-apis#index)
