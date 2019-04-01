@@ -48,6 +48,8 @@ TODO
 
 ### Git
 
+- [Cheat Sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet/)
+
 #### Tutorials
 - [Git Immersion](http://gitimmersion.com/)
 - [Resources to Learn Git](https://try.github.io/)
@@ -57,3 +59,8 @@ TODO
 - [Git makes software development, well, easier – Atlassian](https://www.atlassian.com/agile/software-development/git)
 - [The Git Parable](http://tom.preston-werner.com/2009/05/19/the-git-parable.html)
 - [The Case for Git Rebase](http://www.darwinweb.net/articles/the-case-for-git-rebase)
+
+#### Repository Hosting Services
+- [GitHub](https://github.com)
+- [GitLab](https://gitlab.com/)
+- [BitBucket](https://bitbucket.org/)
