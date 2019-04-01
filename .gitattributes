@@ -1,0 +1,5 @@
+* text=auto
+
+/.github        export-ignore
+/build          export-ignore
+README.md       export-ignore
