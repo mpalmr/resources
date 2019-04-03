@@ -5,6 +5,7 @@ TODO
 
 ***
 - [Asyncronous Programming](#async)
+- [Modules](#modules)
 - [Functional Programming](#functional-programming)
 ***
 
@@ -13,7 +14,16 @@ TODO
 
 ## Asyncronous Programming
 
-- [Promises, async/await – <small>The Modern Javascript Tutorial</small>](https://javascript.info/async)
+- [Promises, async/await <small>(The Modern Javascript Tutorial)</small>](https://javascript.info/async)
+- [Asynchronous Javascript using Async - Await](https://scotch.io/tutorials/asynchronous-javascript-using-async-await)
+
+
+
+
+## Modules
+
+- [Introduction to ES6 Modules <small>(Flavio Copes)</small>](https://flaviocopes.com/es-modules/)
+- [Understanding ES6 Modules <small>(Sitepoint)</small>](https://www.sitepoint.com/understanding-es6-modules/)
 
 
 
