@@ -4,7 +4,7 @@ TODO
 
 
 ***
-- [JavaScript](#javascript)
+- [JavaScript](https://github.com/mpalmr/resources/blob/master/javascript.md)
     - [Tutorials](#tutorials)
 	- [Coding Style](#coding-style)
 - [Libraries](#libraries)
@@ -26,39 +26,6 @@ TODO
 
 
 
-## JavScript
-
-[Specific topics](https://github.com/mpalmr/resources/blob/master/javascript.md)
-
-
-### Tutorials
-
-- [The Modern Javascript Tutorial](https://javascript.info/)
-- [Eloquent JavaScript <small>3<sup>rd</sup> edition</small>](https://eloquentjavascript.net/)
-- [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
-
-
-### Coding Style
-
-- [eslint](https://eslint.org/)
-    - [Recommended Style Guide](https://www.npmjs.com/package/eslint-config-airbnb-base)
-		- [`.eslintrc.js`](https://github.com/mpalmr/resources/blob/master/config-resources/eslint/eslint-config-airbnb-base.js)
-    - [Recommend Style Guide for React](https://www.npmjs.com/package/eslint-config-airbnb)
-    - **Code Editor Plugins**
-        - [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-        - [Atom](https://atom.io/packages/linter-eslint)
-        - [Sublime Text](https://github.com/SublimeLinter/SublimeLinter-eslint)
-- [Editorconfig](https://editorconfig.org/)
-    - [`.editorconfig`](https://github.com/mpalmr/resources/blob/master/config-resources/.editorconfig)
-    - **Code Editor Plugins**
-        - [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
-        - [Atom](https://atom.io/packages/editorconfig)
-        - [Sublime Text](https://github.com/sindresorhus/editorconfig-sublime)
-- [Ninja Code – A Style Guide Parody](https://javascript.info/ninja-code)
-
-
-
-
 ## Libraries
 
 To install any of these libraries run `npm install <package-name>`
@@ -68,15 +35,6 @@ To install any of these libraries run `npm install <package-name>`
 - [**serve-favicon:**](https://www.npmjs.com/package/serve-favicon) HTTP server (Express) middleware for serving favicons.
 - [**dotenv:**](https://www.npmjs.com/package/dotenv) Loads environment variables from a .env file.
 - [**body-parser:**](https://www.npmjs.com/package/body-parser) No longer required as we can just use `express.json()` and `express.urlencoded()`.
-
-
-### Templating Languages
-
-Dynamically generate HTML for HTTP servers (Express).
-
-- [ejs](https://www.npmjs.com/package/ejs)
-- [pug](https://www.npmjs.com/package/pug)
-- [handlebars](https://www.npmjs.com/package/handlebars)
 
 
 ### Developer Dependencies
@@ -208,6 +166,7 @@ All of this is for the ***express*** library:
 
 
 ### Resource Lists
-`- [Free Programming Books](https://ebookfoundation.github.io/free-programming-books/free-programming-books.html)
+
+- [Free Programming Books](https://ebookfoundation.github.io/free-programming-books/free-programming-books.html)
 - [Free Programming Playgrounds](https://ebookfoundation.github.io/free-programming-books/free-programming-playgrounds.html)
-- [Public APIs](https://github.com/toddmotto/public-apis#index)`
+- [Public APIs](https://github.com/toddmotto/public-apis#index)
