@@ -10,7 +10,8 @@ TODO
 - [Error Handling](#error-handling)
 - [Prototypes](#prototypes)
 - [Functional Programming](#functional-programming)
-- [Express](#express)
+- [Backend](#backend)
+	- [Express](#express)
 	- [Templating Languages](#templating-languages)
 - [Coding Style](#coding-style)
 - [Miscellaneous](#miscellaneous)
@@ -78,7 +79,12 @@ TODO
 
 
 
-## Express
+## Backend
+
+- [Node.js Everywhere with Environment Variables!](https://medium.com/the-node-js-collection/making-your-node-js-work-everywhere-with-environment-variables-2da8cdf6e786)
+
+
+### Express
 
 - [Official Tutorial](https://expressjs.com/en/starter/installing.html)
 - [Creating a Project from Scratch](https://gitlab.com/snippets/1842458)
@@ -95,9 +101,9 @@ TODO
 
 Dynamically generate HTML for HTTP servers _(eg: Express)_.
 
-- [handlebars](https://www.npmjs.com/package/handlebars)
-- [pug](https://www.npmjs.com/package/pug)
-- [ejs](https://www.npmjs.com/package/ejs)
+- [**handlebars:**](http://handlebarsjs.com/) The most popular templating language.
+- [**pug:**](https://www.npmjs.com/package/pug) An elgant and smooth looking templating language. My personal preference.
+- [**ejs:**](https://www.npmjs.com/package/ejs) Dirt simple embedded JavaScript templates.
 
 
 

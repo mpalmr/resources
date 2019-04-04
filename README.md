@@ -79,24 +79,6 @@ To install any of these libraries run `npm install --save-dev <package-name>`
 
 
 
-## Backend
-
-All of this is for the ***express*** library:
-
-- [API Reference](https://expressjs.com/en/4x/api.html)
-- [Middleware libraries](https://expressjs.com/en/resources/middleware.html)
-- [Official Tutorial](https://expressjs.com/en/starter/installing.html)
-- [Basic Routing](https://expressjs.com/en/starter/basic-routing.html)
-- [Static Files](https://expressjs.com/en/starter/static-files.html)
-- [Using Templating Engines](https://expressjs.com/en/guide/using-template-engines.html)
-- [Default errors handlers](https://expressjs.com/en/guide/error-handling.html#the-default-error-handler)
-- [ExpressJS Crash Course](https://www.youtube.com/watch?time_continue=1441&v=L72fhGm1tfE)
-- [List of Books and Blogs](https://expressjs.com/en/resources/books-blogs.html)
-	- [Learning Expressjs – _getbuzz_](https://getbuzz.io/c/learning-expressjs)
-
-
-
-
 ## HTTP
 
 - [Status Code Cheat Sheet](https://www.restapitutorial.com/httpstatuscodes.html)
