@@ -5,10 +5,11 @@ TODO
 
 ***
 - [Full Tutorials](#full-tutorials)
-- [Promises](#promises)
-- [Modules](#modules)
-- [Error Handling](#error-handling)
-- [Prototypes](#prototypes)
+- [Language Concepts](#language-concepts)
+	- [Promises](#promises)
+	- [Modules](#modules)
+	- [Error Handling](#error-handling)
+	- [Prototypes](#prototypes)
 - [Functional Programming](#functional-programming)
 - [Backend](#backend)
 	- [Express](#express)
@@ -30,7 +31,9 @@ TODO
 
 
 
-## Promises
+## Language Concepts
+
+### Promises
 
 - [**Promises, async/await _(javascript.info)_:**](https://javascript.info/async) Tutorial
 - [**JavaScript Promises for Dummies:**](https://scotch.io/tutorials/javascript-promises-for-dummies) Tutorial
@@ -40,17 +43,13 @@ TODO
 - [**Asynchronous Javascript using Async - Await _(scotch.io)_:**](https://scotch.io/tutorials/asynchronous-javascript-using-async-await) `async` / `await` syntax tutorial
 
 
-
-
-## Modules
+### Modules
 
 - [Introduction to ES6 Modules <small>(Flavio Copes)</small>](https://flaviocopes.com/es-modules/)
 - [Understanding ES6 Modules <small>(Sitepoint)</small>](https://www.sitepoint.com/understanding-es6-modules/)
 
 
-
-
-## Error Handling
+### Error Handling
 
 - [**Error handling _(javascript.info)_:**](https://javascript.info/try-catch) Introduction
 - [**Error handling with promises _(javascript.info)_:**](https://javascript.info/promise-error-handling) Introduction
@@ -60,9 +59,7 @@ TODO
 - [**Handling Errors in JavaScript – The Definitive Guide:**](https://levelup.gitconnected.com/the-definite-guide-to-handling-errors-gracefully-in-javascript-58424d9c60e6): Deeper dive.
 
 
-
-
-## Prototypes
+### Prototypes
 
 - [Constructing Instances](https://javascript.info/constructor-new)
 - [Inheritance](https://javascript.info/prototypes)
