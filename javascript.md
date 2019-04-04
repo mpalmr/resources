@@ -16,6 +16,7 @@ TODO
 
 - [Promises, async/await <small>(The Modern Javascript Tutorial)</small>](https://javascript.info/async)
 - [Asynchronous Javascript using Async - Await](https://scotch.io/tutorials/asynchronous-javascript-using-async-await)
+- [We have a Problem with Promises](https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html)
 
 
 
