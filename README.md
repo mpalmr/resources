@@ -5,14 +5,11 @@ TODO
 
 ***
 - [JavaScript](https://github.com/mpalmr/resources/blob/master/javascript.md)
-    - [Tutorials](#tutorials)
-	- [Coding Style](#coding-style)
-- [Libraries](#libraries)
+- [Tools and Libraries](https://github.com/mpalmr/resources/blob/master/tools-and-libraries.md)
 - [Frontend](#frontend)
 	- [CSS](#css)
     - [AJAX and Fetch](#ajax-and-fetch)
     - [React](#react)
-- [Backend](#backend)
 - [HTTP](#http)
 - [Tooling](#tooling)
     - [Code Editors](#code-editors)
@@ -25,30 +22,6 @@ TODO
 
 
 
-
-## Libraries
-
-To install any of these libraries run `npm install <package-name>`
-
-- [**axios:**](https://www.npmjs.com/package/axios) Promise based HTTP client for the browser and node.js _(a better Fetch API)_.
-- [**express:**](https://www.npmjs.com/package/express) Fast, unopinionated, minimalist web framework for node.
-- [**serve-favicon:**](https://www.npmjs.com/package/serve-favicon) HTTP server (Express) middleware for serving favicons.
-- [**dotenv:**](https://www.npmjs.com/package/dotenv) Loads environment variables from a .env file.
-- [**body-parser:**](https://www.npmjs.com/package/body-parser) No longer required as we can just use `express.json()` and `express.urlencoded()`.
-
-
-### Developer Dependencies
-
-To install any of these libraries run `npm install --save-dev <package-name>`
-
-- [**nodemon:**](https://www.npmjs.com/package/nodemon) nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
-- [**jest:**](https://www.npmjs.com/package/jest) Automated (unit) testing framework
-- [**eslint-config-airbnb-base:**](https://www.npmjs.com/package/eslint-config-airbnb-base)
-
-
-### Other Dependencies
-
-- [**create-react-app:**](https://www.npmjs.com/package/create-react-app) Generates a starting point for React projects
 
 
 
@@ -91,11 +64,6 @@ To install any of these libraries run `npm install --save-dev <package-name>`
 
 - [Node Version Manager](https://github.com/creationix/nvm/blob/master/README.md#installation-and-update)
 - [Windows Subsystem for Linux _(WSL)_](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
-- [Create React App](https://github.com/facebook/create-react-app)
-- [Babel](https://babeljs.io/)
-- **Module Bundlers**
-	- [Webpack](https://webpack.js.org/)
-	- [Parcel](https://parceljs.org)
 
 
 ### Code Editors
