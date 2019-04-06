@@ -1,21 +1,16 @@
 # Resources for Web Development
 
-TODO
+This repository is a collection of all the resources and useful links me and other contributors know of. It's still a work in progress and incomplete. To contribute please [create a pull request](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork) or email me at [mspalmer91@gmail.com](mailto:mspalmer91@gmail.com).
 
 
 ***
-- [JavaScript](https://github.com/mpalmr/resources/blob/master/javascript.md)
-- [Tools and Libraries](https://github.com/mpalmr/resources/blob/master/tools-and-libraries.md)
-- [Frontend](#frontend)
-	- [CSS](#css)
-    - [AJAX and Fetch](#ajax-and-fetch)
-    - [React](#react)
-- [HTTP](#http)
+- [**JavaScript**](https://github.com/mpalmr/resources/blob/master/javascript.md)
+- [**Tools and Libraries**](https://github.com/mpalmr/resources/blob/master/tools-and-libraries.md)
+- [Resources](#resources)
 - [Tooling](#tooling)
     - [Code Editors](#code-editors)
     - [Troubleshooting](#troubleshooting)
     - [Git](#git)
-	- [Command Line](#command-line)
 - [Miscellaneous](#miscellaneous)
 	- [Resource Lists](#resources-lists)
 ***
@@ -23,37 +18,14 @@ TODO
 
 
 
+## Resources
 
-
-
-## Frontend
-
-### HTML
-
-- [Validator](https://whatwg.org/validator/)
-
-
-### CSS
-
-- [Validator](https://jigsaw.w3.org/css-validator/)
+- [HTML Validator](https://whatwg.org/validator/)
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
 - [Flexbox Frogger](https://flexboxfroggy.com/)
 - [Grid Garden](https://cssgridgarden.com/)
-
-
-### AJAX and Fetch
-
 - [How to use the Fetch API to Get Data](https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data)
-
-
-### React
-
 - [Official Tutorial](https://reactjs.org/tutorial/tutorial.html)
-
-
-
-
-## HTTP
-
 - [Status Code Cheat Sheet](https://www.restapitutorial.com/httpstatuscodes.html)
 - [Headers – MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
 

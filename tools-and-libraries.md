@@ -12,6 +12,7 @@ To install any of these libraries run `npm install <package-name>` or `npm insta
 		- [UI Frameworks](#ui-frameworks)
 		- [Rich Editors](#rich-editors)
 	- [React](#react)
+		- [Input Components](#input-components)
 		- [Redux](#redux)
 	- [Polyfills](#polyfills)
 - [Node](#nodejs)
@@ -23,6 +24,7 @@ To install any of these libraries run `npm install <package-name>` or `npm insta
 	- [Assertions](#assertions)
 	- [Mocking](#mocking)
 - [Development Libraries](#development-libraries)
+	- [Development HTTP Servers](#development-http-servers)
 	- [Babel](#compilers)
 	- [Module Bundlers](#module-bundlers)
 	- [CSS Tools](#css-tools)
@@ -102,10 +104,23 @@ To install any of these libraries run `npm install <package-name>` or `npm insta
 	- [react-router-prop-types](https://www.npmjs.com/package/react-router-prop-types)
 	- [react-moment-proptypes](https://www.npmjs.com/package/react-moment-proptypes)
 - [**react-router:**](https://reacttraining.com/react-router/) Client-side router for conditionally rendering different components depending on the URL. This or another routing library is neccessary for any single page application.
+- [**formik:**](https://jaredpalmer.com/formik/) Recommended form library.
+- [**react-final-form:**](https://www.npmjs.com/package/react-final-form) Alternative to `formik` above.
 - [**reactstrap:**](https://reactstrap.github.io/) React components for [Bootstrap v4](https://getbootstrap.com/) components. Recommended to use in a React project over regular [bootstrap](https://www.npmjs.com/package/bootstrap). _For Bootstrap v3 use [react-bootstrap](https://react-bootstrap.github.io/)._
 - [**react-table:**](https://www.npmjs.com/package/react-table) Datatable that can sort, filter, and more.
 - [**react-virtualized:**](https://bvaughn.github.io/react-virtualized/) Efficient rendering of large lists and tabular data.
 - [**mobx:**](https://mobx.js.org/) Global state store for React like [**Redux**](https://redux.js.org/).
+
+#### Input Components
+- [**react-select:**](https://react-select.com/home) Fancy `<select>`.
+- [**react-dates:**](http://airbnb.io/react-dates/) Date picker by Airbnb.
+- [**rc-time-picker:**](https://react-component.github.io/time-picker/) Time picker.
+- [**react-phone-number-input:**](https://catamphetamine.github.io/react-phone-number-input/) International phone number input.
+- [**react-autosuggest:**](https://react-autosuggest.js.org/) Autocompleter.
+- [**react-geosuggest:**](https://ubilabs.github.io/react-geosuggest/) Autocompleter using [Google Places API](https://developers.google.com/places/web-service/intro).
+- [**react-dropzone:**](https://react-dropzone.js.org/) Drag'n'drop zone for files.
+- [**react-ace:**](https://securingsincity.github.io/react-ace/) React component for the [ace editor](https://ace.c9.io/) which excels at editing code rather than website content.
+- [**react-color:**](https://casesandberg.github.io/react-color/) Colour picker inputs.
 
 #### [**Redux**](https://redux.js.org/)
 Global state store. Although not specifically for React, most people reading this list will likely be using it along side it.
@@ -117,31 +132,26 @@ Global state store. Although not specifically for React, most people reading thi
 	- [**redux-devtools-extension:**](http://extension.remotedev.io/) Allows for integration with the Redux browser DevTools extensions for [Chrome](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd) and [Firefox](https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/).
 	- [**redux-logger:**](https://www.npmjs.com/package/redux-logger) Logs Redux actions to the console.
 
-#### Form Inputs
-
-- [**react-select:**](https://react-select.com/home) Fancy `<select>`.
-- [**react-dates:**](http://airbnb.io/react-dates/) Date picker by Airbnb.
-- [**rc-time-picker:**](https://react-component.github.io/time-picker/) Time picker.
-- [**react-phone-number-input:**](https://catamphetamine.github.io/react-phone-number-input/) International phone number input.
-- [**react-autosuggest:**](https://react-autosuggest.js.org/) Autocompleter.
-- [**react-geosuggest:**](https://ubilabs.github.io/react-geosuggest/) Autocompleter using [Google Places API](https://developers.google.com/places/web-service/intro).
-- [**react-dropzone:**](https://react-dropzone.js.org/) Drag'n'drop zone for files.
-- [**react-ace:**](https://securingsincity.github.io/react-ace/) React component for the [ace editor](https://ace.c9.io/) which excels at editing code rather than website content.
-- [**react-color:**](https://casesandberg.github.io/react-color/) Colour picker inputs.
-
 
 ### Polyfills
 
 Implements standard features in environments that do not have them implemented yet.
 
-- [**whatwg-fetch:**](https://www.npmjs.com/package/whatwg-fetch) Polyfill for the [Fetch API](https://developer.mozilla.org/en/docs/Web/API/Fetch_API).
 - [**url-polyfill:**](https://www.npmjs.com/package/url-polyfill) Polyfills for the [URL](https://developer.mozilla.org/en-US/docs/Web/API/URL) and [URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams) prototypes.
+
+#### Node Specific
+- [**jsdom:**](https://www.npmjs.com/package/jsdom) Implementation of the WHATWG DOM and HTML standards, for use with NodeJS.
+
+#### Browser Specific
+- [**whatwg-fetch:**](https://www.npmjs.com/package/whatwg-fetch) Polyfill for the [Fetch API](https://developer.mozilla.org/en/docs/Web/API/Fetch_API).
+- [**nodelist-foreach-polyfill:**](https://www.npmjs.com/package/nodelist-foreach-polyfill) Polyfill for [`Element.prototype.forEach`](https://developer.mozilla.org/en-US/docs/Web/API/NodeList/forEach#Browser_Compatibility).
 
 
 
 
 ## NodeJS
 
+- [**puppeteer:**](https://pptr.dev/) A high-level API to control Chrome or Chromium, usually in [headless](https://developers.google.com/web/updates/2017/04/headless-chrome) mode.
 - [**rimraf:**](https://www.npmjs.com/package/rimraf) The UNIX command rm -rf for node.
 - [**dotenv:**](https://www.npmjs.com/package/dotenv) Loads environment variables from a .env file.
 - [**commander:**](https://www.npmjs.com/package/commander) Eases the creation command line utilities and appliations.
@@ -196,7 +206,10 @@ Implements standard features in environments that do not have them implemented y
 
 ### Assertions
 
+Keep in mind the [assert](https://nodejs.org/api/assert.html) module built into NodeJS is always an option.
+
 - [**power-assert:**](https://www.npmjs.com/package/power-assert) Provides descriptive assertion messages through standard [assert](https://nodejs.org/api/assert.html) interface.
+- [**expect:**](https://www.npmjs.com/package/expect) `expect` function used in [Jest](https://jestjs.io/).
 - [**chai:**](https://www.chaijs.com/) Has several interfaces that allow the developer to choose the most comfortable and has many [plugins](https://www.chaijs.com/plugins/).
 - [**supertest:**](https://www.npmjs.com/package/supertest) HTTP assertions made easy via [superagent](https://visionmedia.github.io/superagent/).
 
@@ -220,8 +233,15 @@ Implements standard features in environments that do not have them implemented y
 	- [**eslint-config-airbnb-base:**](https://www.npmjs.com/package/eslint-config-airbnb-base) Recommended style guide ***for non-react*** projects.
 	- [**eslint-config-airbnb:**](https://www.npmjs.com/package/eslint-config-airbnb) Recommended style guide ***for react*** projects.
 	- [**babel-eslint:**](https://www.npmjs.com/package/babel-eslint) Allows for linting of code supported by Babel not supported by your version of Node such as JSX.
-- [**http-server:**](https://www.npmjs.com/package/http-server) Webserver that's useful when developing static websites. _Alternative [local-web-server](https://www.npmjs.com/package/local-web-server)_.
 - [**shell-executor:**](https://www.npmjs.com/package/shell-executor) Execute shell commands in parallel. Particularly useful for [npm scripts](https://docs.npmjs.com/misc/scripts).
+
+
+### Development HTTP Servers
+
+- [**webpack-dev-server:**](https://webpack.js.org/configuration/dev-server/) Recommended when using [Webpack](https://webpack.js.org/).
+- [**browser-sync:**](https://www.browsersync.io/) Has features such as live reloading and other awesome features.
+- [**http-server:**](https://www.npmjs.com/package/http-server) A simple HTTP server.
+- [**local-web-server:**](https://www.npmjs.com/package/local-web-server) A simple HTTP server similar to `http-server` above.
 
 
 ### [Babel](https://babeljs.io/)
@@ -256,6 +276,7 @@ Implements modules at built time. In other words allows the use of `import` and 
 		- [**webpack-bundle-analyzer:**](https://github.com/webpack-contrib/webpack-bundle-analyzer#usage-as-a-plugin) Represents bundle content as convenient interactive zoomable treemap.
 		- [**favicons-webpack-plugin:**](https://www.npmjs.com/package/favicons-webpack-plugin) Generates all favicons.
 		- [**case-sensitive-paths-webpack-plugin:**](https://www.npmjs.com/package/case-sensitive-paths-webpack-plugin) Enforces the entire path of all required modules match the exact case of the actual path on disk. Using this plugin helps alleviate cases where developers working on macOS, which does not follow strict path case sensitivity, will cause conflicts with other developers or build boxes running other operating systems which require correctly cased paths.
+	- [**webpack-dev-server:**](https://webpack.js.org/configuration/dev-server/) HTTP server for development purposes.
 	- [**webpack-merge:**](https://www.npmjs.com/package/webpack-merge) Merges sections of Webpack configurations that's particularly useful when configuring Webpack for particular environments.
 
 
