@@ -7,7 +7,6 @@ To install any of these libraries run `npm install <package-name>` or `npm insta
 - [General](#general)
 	- [Dates and Times](#dates-and-times)
 - [Frontend](#frontend)
-	- [CSS](#css)
 	- [UI Components](#ui-components)
 		- [UI Frameworks](#ui-frameworks)
 		- [Rich Editors](#rich-editors)
@@ -16,6 +15,7 @@ To install any of these libraries run `npm install <package-name>` or `npm insta
 	- [Data Visualization](#data-visualization)
 	- [Polyfills](#polyfills)
 - [Node](#nodejs)
+	- [npm Script Helpers](#npm-script-helpers)
 	- [Express](#backend)
 	- [Databases](#databases)
 	- [Cryptography](#cryptography)
@@ -27,7 +27,7 @@ To install any of these libraries run `npm install <package-name>` or `npm insta
 	- [Development HTTP Servers](#development-http-servers)
 	- [Babel](#compilers)
 	- [Module Bundlers](#module-bundlers)
-	- [CSS Tools](#css-tools)
+	- [CSS](#css)
 	- [Generators](#generators)
 ***
 
@@ -40,9 +40,11 @@ All packages work in both the browser and NodeJS.
 
 - [**axios:**](https://www.npmjs.com/package/axios) Promise based HTTP client for the browser and node.js _(a better Fetch API)_.
 - [**ramda:**](https://ramdajs.com/) Utility library with a functional programming lean. Similar to [lodash](https://lodash.com/).
+- [**uuidv4:**](https://www.npmjs.com/package/uuidv4) Generate universally unique IDs.
 - [**create-error:**](https://www.npmjs.com/package/create-error) Helper for creating subclassed errors in Javascript.
 - [**title-case:**](https://www.npmjs.com/package/title-case) Converts strings to and from _titleCase_.
 - [**papaparse:**](https://www.papaparse.com/) CSV parser.
+- [**node-polyglot:**](https://airbnb.io/polyglot.js/) Internationalization helper library.
 
 
 ### Dates and Times
@@ -60,10 +62,6 @@ All packages work in both the browser and NodeJS.
 - [**js-cookie:**](https://www.npmjs.com/package/js-cookie) Abstraction for working with cookies in client-side JavaScript.
 - [**classnames:**](https://www.npmjs.com/package/classnamesq) Utility for conditionally joining classNames together. Popularly used with React and other VDOM libraries.
 - [**font-awesome:**](https://fontawesome.com/) Vector icons and social logos.
-
-
-### CSS
-
 - [**normalize.css:**](https://necolas.github.io/normalize.css/) Makes browsers render all elements more consistently and in line with modern standards. UI frameworks like [Bootstrap](https://getbootstrap.com/) should not be used in combination with this library.
 
 
@@ -107,6 +105,8 @@ All packages work in both the browser and NodeJS.
 	- [react-router-prop-types](https://www.npmjs.com/package/react-router-prop-types)
 	- [react-moment-proptypes](https://www.npmjs.com/package/react-moment-proptypes)
 - [**react-router:**](https://reacttraining.com/react-router/) Client-side router for conditionally rendering different components depending on the URL. This or another routing library is neccessary for any single page application.
+- [**emotion:**](https://emotion.sh/) Writing css styles with JavaScript and apply them to React components.
+	- [**eslint-plugin-emotion:**](https://emotion.sh/docs/eslint-plugin-emotion) [ESLint](https://eslint.org/) plugin for Emotion.
 - [**formik:**](https://jaredpalmer.com/formik/) Recommended form library.
 - [**react-final-form:**](https://www.npmjs.com/package/react-final-form) Alternative to `formik` above.
 - [**reactstrap:**](https://reactstrap.github.io/) React components for [Bootstrap v4](https://getbootstrap.com/) components. Recommended to use in a React project over regular [bootstrap](https://www.npmjs.com/package/bootstrap). _For Bootstrap v3 use [react-bootstrap](https://react-bootstrap.github.io/)._
@@ -124,6 +124,11 @@ All packages work in both the browser and NodeJS.
 - [**react-dropzone:**](https://react-dropzone.js.org/) Drag'n'drop zone for files.
 - [**react-ace:**](https://securingsincity.github.io/react-ace/) React component for the [ace editor](https://ace.c9.io/) which excels at editing code rather than website content.
 - [**react-color:**](https://casesandberg.github.io/react-color/) Colour picker inputs.
+
+#### React Frameworks
+- [**gatsby:**](https://www.gatsbyjs.org/) Static site generator using React.
+- [**next:**](https://nextjs.org/) Framework for service side rendering websites using React.
+- [**hypernova-react:**](https://www.npmjs.com/package/hypernova-react) Server side rendering of React components.
 
 #### [**Redux**](https://redux.js.org/)
 Global state store. Although not specifically for React, most people reading this list will likely be using it along side it.
@@ -150,6 +155,8 @@ component framework.
 
 #### Input Components
 - [**vue2-timepicker:**](https://phoenixwong.github.io/vue2-timepicker/) A dropdown time picker.
+- [**vuedraggable:**](https://www.npmjs.com/package/vuedraggable) Drag-and-drop and synchronization.
+- [**vue2-dropzone:**](https://rowanwins.github.io/vue-dropzone/docs/dist/#/installation) Drag and drop file uploads.
 
 
 ### Data Visualization
@@ -179,12 +186,18 @@ Implements standard features in environments that do not have them implemented y
 ## NodeJS
 
 - [**puppeteer:**](https://pptr.dev/) A high-level API to control Chrome or Chromium, usually in [headless](https://developers.google.com/web/updates/2017/04/headless-chrome) mode.
-- [**shelljs:**](https://documentup.com/shelljs/shelljs) Unix shell commands for NodeJS.
 - [**dotenv:**](https://www.npmjs.com/package/dotenv) Loads environment variables from a .env file.
 - [**commander:**](https://www.npmjs.com/package/commander) Eases the creation command line utilities and appliations.
 - [**winston:**](https://www.npmjs.com/package/winston) General purpose logging library.
 - [**chalk:**](https://www.npmjs.com/package/chalk) Terminal string styling.
 - [**ws:**](https://www.npmjs.com/package/ws) [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API) implementation for NodeJS.
+
+
+### npm Script Helpers
+
+- [**cross-env:**](https://www.npmjs.com/package/cross-env) Set and use environment variables across platforms.
+- [**shelljs:**](https://documentup.com/shelljs/shelljs) Unix shell commands for NodeJS.
+- [**shell-executor:**](https://www.npmjs.com/package/shell-executor) Execute shell commands in parallel. Particularly useful for [npm scripts](https://docs.npmjs.com/misc/scripts).
 
 
 ### Express
@@ -203,7 +216,7 @@ Implements standard features in environments that do not have them implemented y
 
 - [**knex:**](https://knexjs.org/) SQL query builder that also deals with migrations and seeding.
 - [**objection:**](https://vincit.github.io/objection.js/) [ORM](https://stackoverflow.com/questions/1279613/what-is-an-orm-and-where-can-i-learn-more-about-it#answer-1279678) built on knex.
-- [**pg-error-constants:**](https://www.npmjs.com/package/pg-error-constants) PostgresQL error constants for use with NodeJS.
+- [**pg-error-constants:**](https://www.npmjs.com/package/pg-error-constants) [PostgreSQL](https://www.postgresql.org/) error constants for use with NodeJS.
 
 
 ### Cryptography
@@ -211,6 +224,7 @@ Implements standard features in environments that do not have them implemented y
 - [**argon2:**](https://www.npmjs.com/package/argon2) Implements the [Argon2](https://en.wikipedia.org/wiki/Argon2) crypgographically secure hashing algorithm.
 - [**bcrypt:**](https://www.npmjs.com/package/bcrypt) Implements the [bcrypt](https://en.wikipedia.org/wiki/Bcrypt) crypgographically secure hashing algorithm.
 - [**scrypt-for-humans:**](https://www.npmjs.com/package/scrypt-for-humans) Implements the [scrypt](https://en.wikipedia.org/wiki/Scrypt) crypgographically secure hashing algorithm.
+- [**aes-js:**](https://www.npmjs.com/package/aes-js) Implementation of the AES block cipher algorithm.
 
 
 
@@ -248,6 +262,7 @@ Keep in mind the [assert](https://nodejs.org/api/assert.html) module built into 
 - [**fetch-mock:**](https://www.npmjs.com/package/fetch-mock) Mocks the [Fetch API](https://developer.mozilla.org/en/docs/Web/API/Fetch_API).
 - [**mock-local-storage:**](https://www.npmjs.com/package/mock-local-storage) Mocks the [`localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) API.
 - [**redux-mock-store:**](https://www.npmjs.com/package/redux-mock-store) A mock store for testing Redux async action creators and middleware.
+- [**vuex-mock-store:**](https://www.npmjs.com/package/vuex-mock-store) A mock store for testing Vuex.
 
 
 
@@ -260,7 +275,6 @@ Keep in mind the [assert](https://nodejs.org/api/assert.html) module built into 
 	- [**eslint-config-airbnb-base:**](https://www.npmjs.com/package/eslint-config-airbnb-base) Recommended style guide ***for non-react*** projects.
 	- [**eslint-config-airbnb:**](https://www.npmjs.com/package/eslint-config-airbnb) Recommended style guide ***for react*** projects.
 	- [**babel-eslint:**](https://www.npmjs.com/package/babel-eslint) Allows for linting of code supported by Babel not supported by your version of Node such as JSX.
-- [**shell-executor:**](https://www.npmjs.com/package/shell-executor) Execute shell commands in parallel. Particularly useful for [npm scripts](https://docs.npmjs.com/misc/scripts).
 
 
 ### Development HTTP Servers
@@ -288,6 +302,7 @@ Implements modules at built time. In other words allows the use of `import` and 
 
 - [**parcel-bundler:**](https://parceljs.org/) Requires zero configuration for all the features many projects would need.
 - [**rollup:**](https://rollupjs.org/guide/en) Bundler popularly used for distributing libraries as standalone scripts.
+- [**browserify:**](http://browserify.org/) A stable and mature module bundler.
 - [**webpack:**](https://webpack.js.org/) The most popular and powerful module bundler.
 	- [**Loaders:**](https://webpack.js.org/loaders) Transforms files as they are imported. Below are a list of loaders I commonly use.
 		- [**babel-loader:**](https://webpack.js.org/loaders/babel-loader/) Transforms `import`ed JavaScript files with [Babel](https://babeljs.io/).
@@ -303,11 +318,12 @@ Implements modules at built time. In other words allows the use of `import` and 
 		- [**webpack-bundle-analyzer:**](https://github.com/webpack-contrib/webpack-bundle-analyzer#usage-as-a-plugin) Represents bundle content as convenient interactive zoomable treemap.
 		- [**favicons-webpack-plugin:**](https://www.npmjs.com/package/favicons-webpack-plugin) Generates all favicons.
 		- [**case-sensitive-paths-webpack-plugin:**](https://www.npmjs.com/package/case-sensitive-paths-webpack-plugin) Enforces the entire path of all required modules match the exact case of the actual path on disk. Using this plugin helps alleviate cases where developers working on macOS, which does not follow strict path case sensitivity, will cause conflicts with other developers or build boxes running other operating systems which require correctly cased paths.
+		- [**offline-plugin:**](https://www.npmjs.com/package/offline-plugin) Provides an offline experience for projects through the [Service Worker API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API).
 	- [**webpack-dev-server:**](https://webpack.js.org/configuration/dev-server/) HTTP server for development purposes.
 	- [**webpack-merge:**](https://www.npmjs.com/package/webpack-merge) Merges sections of Webpack configurations that's particularly useful when configuring Webpack for particular environments.
 
 
-### CSS Tools
+### CSS
 
 - [**node-sass:**](https://www.npmjs.com/package/node-sass) Sass / SCSS to CSS compiler.
 - [**postcss:**](https://postcss.org/) A tool for transforming CSS with JavaScript through plugins. Comparable to Babel but for CSS. Plugins can be found [here](https://github.com/postcss/postcss/blob/master/docs/plugins.md#packs) and [here](https://www.postcss.parts/).
@@ -321,5 +337,7 @@ Implements modules at built time. In other words allows the use of `import` and 
 - [**@vue/cli:**](https://cli.vuejs.org/) Standard tooling for [Vue.js](https://vuejs.org/) development.
 - [**@ng/cli:**](https://cli.angular.io/) Standard tooling for [Angular](https://angular.io/).
 - [**express-generator:**](https://expressjs.com/en/starter/generator.html) Use the application generator tool, express-generator, to quickly create an application skeleton.
+- [**gatsby-cli:**](https://www.gatsbyjs.org/tutorial/part-zero/#using-the-gatsby-cli) Generates a [Gatsby](https://www.gatsbyjs.org/) project for generating static websites.
 - [**foundation-cli:**](https://www.npmjs.com/package/foundation-cli) Downloads and installs blank templates in any of the three Foundation frameworks.
+- [**@storybook/cli:**](https://www.npmjs.com/package/@storybook/cli) Add [Storybook](https://storybook.js.org/) to your project.
 - [**Yeoman:**](https://yeoman.io/generators/) Discover other generators that make use of the Yeoman generator framework.
