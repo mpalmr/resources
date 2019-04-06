@@ -5,7 +5,7 @@ This repository is a collection of all the resources and useful links me and oth
 
 ***
 - [**JavaScript**](https://github.com/mpalmr/resources/blob/master/javascript.md)
-- [**Tools and Libraries**](https://github.com/mpalmr/resources/blob/master/tools-and-libraries.md)
+- [**Libraries**](https://github.com/mpalmr/resources/blob/master/libraries.md)
 - [Resources](#resources)
 - [Tooling](#tooling)
     - [Code Editors](#code-editors)

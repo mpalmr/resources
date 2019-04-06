@@ -144,6 +144,7 @@ Global state store. Although not specifically for React, most people reading thi
 ### [Vue](https://vuejs.org/)
 
 - [**@vue/cli:**](https://cli.vuejs.org/) Standard tooling for [Vue.js](https://vuejs.org/) development.
+- [**create-nuxt-app:**](https://nuxtjs.org/) Framework for server side rendering.
 - [**vue-router:**](https://router.vuejs.org/) Client-side router for conditionally rendering different components depending on the URL. This or another routing library is neccessary for any single page application.
 - [**vuex:**](https://vuex.vuejs.org/) Global state management library similar to [Redux](https://redux.js.org/).
 - [**vuelidate:**](https://vuelidate.netlify.com/) Form validation.
@@ -334,7 +335,8 @@ Implements modules at built time. In other words allows the use of `import` and 
 ### Generators
 
 - [**create-react-app:**](https://facebook.github.io/create-react-app/) Generates a starting point for React projects.
-- [**@vue/cli:**](https://cli.vuejs.org/) Standard tooling for [Vue.js](https://vuejs.org/) development.
+- [**@vue/cli:**](https://cli.vuejs.org/) Standard tooling for [Vue](https://vuejs.org/) development.
+- [**create-nuxt-app:**](https://nuxtjs.org/) Framework for server side rendering of a [Vue](https://vuejs.org/) app.
 - [**@ng/cli:**](https://cli.angular.io/) Standard tooling for [Angular](https://angular.io/).
 - [**express-generator:**](https://expressjs.com/en/starter/generator.html) Use the application generator tool, express-generator, to quickly create an application skeleton.
 - [**gatsby-cli:**](https://www.gatsbyjs.org/tutorial/part-zero/#using-the-gatsby-cli) Generates a [Gatsby](https://www.gatsbyjs.org/) project for generating static websites.
