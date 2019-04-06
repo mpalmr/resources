@@ -9,8 +9,8 @@ This repository is a collection of all the resources and useful links me and oth
 - [Resources](#resources)
 - [Tooling](#tooling)
     - [Code Editors](#code-editors)
-    - [Troubleshooting](#troubleshooting)
     - [Git](#git)
+    - [Troubleshooting](#troubleshooting)
 - [Miscellaneous](#miscellaneous)
 	- [Resource Lists](#resources-lists)
 ***
@@ -20,40 +20,34 @@ This repository is a collection of all the resources and useful links me and oth
 
 ## Resources
 
-- [HTML Validator](https://whatwg.org/validator/)
-- [CSS Validator](https://jigsaw.w3.org/css-validator/)
-- [Flexbox Frogger](https://flexboxfroggy.com/)
-- [Grid Garden](https://cssgridgarden.com/)
+- [**HTML Validator:**](https://whatwg.org/validator/) Ensures a given document is valid HTML5 or not. Works via URL or direct text input. Reports back an itemized list of issues.
+- [**CSS Validator:**](https://jigsaw.w3.org/css-validator/) Ensures a given stylesheet is valid CSS or not. Works via URL or drirect text input. Reports back an itemized list of issues.
+- [**Flexbox Frogger:**](https://flexboxfroggy.com/) Game that introduces and teaches the fundementals of [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox).
+- [**Grid Garden:**](https://cssgridgarden.com/) Game that introduces and teaches the fundementals of [grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid).
 - [How to use the Fetch API to Get Data](https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data)
-- [Official Tutorial](https://reactjs.org/tutorial/tutorial.html)
-- [Status Code Cheat Sheet](https://www.restapitutorial.com/httpstatuscodes.html)
-- [Headers – MDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
+- [Official React Tutorial](https://reactjs.org/tutorial/tutorial.html)
+- [HTTP Status Code Cheat Sheet](https://www.restapitutorial.com/httpstatuscodes.html)
+- [HTTP Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
 
 
 
 
 ## Tooling
 
-- [Node Version Manager](https://github.com/creationix/nvm/blob/master/README.md#installation-and-update)
-- [Windows Subsystem for Linux _(WSL)_](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
+- [**Node Version Manager _(nvm)_:**](https://github.com/creationix/nvm/blob/master/README.md#installation-and-update) Recommended method of installing [Node.js and npm](https://nodejs.org). Allows you to easily switch between versions as well as lock a project down to a specific version using an [`.nvmrc` file](https://github.com/creationix/nvm#nvmrc).
+- [**Windows Subsystem for Linux _(WSL)_:**](https://docs.microsoft.com/en-us/windows/wsl/install-win10) I strongly recommend anybody on Windows 10 to start using WSL. If you're unsure which distrobution of Linux to run I recommend Ubuntu. This is not a resource hungry virtual machine. It will give you an environment much closer to what Linux and macOS users have and will reduce headaches moving forward.
 
 
 ### Code Editors
 
-- [Visual Studio Code (Recommended)](https://code.visualstudio.com/)
-	- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-	- [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
-	- [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
-	- [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
+- [**Visual Studio Code:**](https://code.visualstudio.com/) Strongly recommend the use of VS Code for web development. In my experience it's the most popular and also has the strongest ecosystem of plugins.
+	- [**ESLint:**](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) Enforces functional and cosmetic rules to a code base. Can integrate with a code editors linting plugin to provide MS Word-like suggestions (red / green underlines).
+	- [**EditorConfig for VS Code:**](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) EditorConfig helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs. It enforces rules around tabs, spacing, and line endings across an entire project. Requires an `.editorconfig` file as seen as [this sample](https://github.com/mpalmr/resources/blob/master/config-resources/.editorconfig).
+	- [**VS Live Share:**](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) Enables you to collaboratively edit and debug with others in real time similar to what you can expect from Google Docs. This includes having the ability to allow somebody to take control of your terminal when explict additional permission is granted.
+	- [**Debugger for Chrome:**](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) Debug your JavaScript code running in Google Chrome.
 - [Atom](https://atom.io)
 - [Sublime Text](https://www.sublimetext.com/)
 - [WebStorm](https://www.jetbrains.com/webstorm/)
-
-
-### Troubleshooting
-
-- [Blink (Chrome) Debugger](https://www.youtube.com/watch?time_continue=1&v=H0XScE08hy8)
-- [Postman HTTP Client](https://www.getpostman.com/)
 
 
 ### Git
@@ -74,6 +68,12 @@ This repository is a collection of all the resources and useful links me and oth
 - [GitHub](https://github.com)
 - [GitLab](https://gitlab.com/)
 - [BitBucket](https://bitbucket.org/)
+
+
+### Troubleshooting
+
+- [Blink (Chrome) Debugger Video Walkthrough](https://www.youtube.com/watch?time_continue=1&v=H0XScE08hy8)
+- [`Postman HTTP Client](https://www.getpostman.com/)
 
 
 
