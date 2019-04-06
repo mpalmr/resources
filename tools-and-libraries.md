@@ -12,8 +12,8 @@ To install any of these libraries run `npm install <package-name>` or `npm insta
 		- [UI Frameworks](#ui-frameworks)
 		- [Rich Editors](#rich-editors)
 	- [React](#react)
-		- [Input Components](#input-components)
-		- [Redux](#redux)
+	- [Vue](#vue)
+	- [Data Visualization](#data-visualization)
 	- [Polyfills](#polyfills)
 - [Node](#nodejs)
 	- [Express](#backend)
@@ -36,10 +36,13 @@ To install any of these libraries run `npm install <package-name>` or `npm insta
 
 ## General
 
+All packages work in both the browser and NodeJS.
+
 - [**axios:**](https://www.npmjs.com/package/axios) Promise based HTTP client for the browser and node.js _(a better Fetch API)_.
 - [**ramda:**](https://ramdajs.com/) Utility library with a functional programming lean. Similar to [lodash](https://lodash.com/).
 - [**create-error:**](https://www.npmjs.com/package/create-error) Helper for creating subclassed errors in Javascript.
 - [**title-case:**](https://www.npmjs.com/package/title-case) Converts strings to and from _titleCase_.
+- [**papaparse:**](https://www.papaparse.com/) CSV parser.
 
 
 ### Dates and Times
@@ -133,6 +136,30 @@ Global state store. Although not specifically for React, most people reading thi
 	- [**redux-logger:**](https://www.npmjs.com/package/redux-logger) Logs Redux actions to the console.
 
 
+### [Vue](https://vuejs.org/)
+
+- [**@vue/cli:**](https://cli.vuejs.org/) Standard tooling for [Vue.js](https://vuejs.org/) development.
+- [**vue-router:**](https://router.vuejs.org/) Client-side router for conditionally rendering different components depending on the URL. This or another routing library is neccessary for any single page application.
+- [**vuex:**](https://vuex.vuejs.org/) Global state management library similar to [Redux](https://redux.js.org/).
+- [**vuelidate:**](https://vuelidate.netlify.com/) Form validation.
+- [**vuetify:**](https://vuetifyjs.com/) Material Design
+component framework.
+- [**material-design-icons-iconfont:**](https://www.npmjs.com/package/material-design-icons-iconfont) Better implementation of Google's Material UI icons.
+- [**vue-chartjs:**](https://vue-chartjs.org/)  Easy and beautiful charts with [Chart.js](https://www.chartjs.org/).
+- [**vue-analytics:**](https://www.npmjs.com/package/vue-analytics) [Google Analytics](https://marketingplatform.google.com/about/analytics/) abstraction.
+
+#### Input Components
+- [**vue2-timepicker:**](https://phoenixwong.github.io/vue2-timepicker/) A dropdown time picker.
+
+
+### Data Visualization
+
+- [**chart.js:**](https://www.chartjs.org/) Simple HTML5 Charts using the `<canvas>` tag.
+- [**d3:**](https://d3js.org/) Low level data visualization library.
+- [**c3:**](https://c3js.org/) Chart library built on `d3`.
+- [**chartist:**](https://gionkunz.github.io/chartist-js/) Simple responsive charts.
+
+
 ### Polyfills
 
 Implements standard features in environments that do not have them implemented yet.
@@ -152,7 +179,7 @@ Implements standard features in environments that do not have them implemented y
 ## NodeJS
 
 - [**puppeteer:**](https://pptr.dev/) A high-level API to control Chrome or Chromium, usually in [headless](https://developers.google.com/web/updates/2017/04/headless-chrome) mode.
-- [**rimraf:**](https://www.npmjs.com/package/rimraf) The UNIX command rm -rf for node.
+- [**shelljs:**](https://documentup.com/shelljs/shelljs) Unix shell commands for NodeJS.
 - [**dotenv:**](https://www.npmjs.com/package/dotenv) Loads environment variables from a .env file.
 - [**commander:**](https://www.npmjs.com/package/commander) Eases the creation command line utilities and appliations.
 - [**winston:**](https://www.npmjs.com/package/winston) General purpose logging library.
