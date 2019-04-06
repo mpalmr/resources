@@ -2,7 +2,7 @@
 
 module.exports = {
   root: true,
-  extends: 'airbnb-base',
+  extends: 'airbnb',
   plugins: ['import'],
   parser: 'babel-eslint',
   parserOptions: { ecmaVersion: 2019 },
@@ -12,6 +12,8 @@ module.exports = {
   rules: {
     'no-console': 0,
     'prefer-destructuring': 0,
+    'react/jsx-filename-extension': 0,
+    'react/destructuring-assignment': 0,
   },
 
   overrides: [
