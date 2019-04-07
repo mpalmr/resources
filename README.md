@@ -20,6 +20,7 @@ This repository is a collection of all the resources and useful links me and oth
 
 ## Resources
 
+- [**Interneting Is Hard:**](https://internetingishard.com/) Friendly web development tutorials for complete beginners.
 - [**HTML Validator:**](https://whatwg.org/validator/) Ensures a given document is valid HTML5 or not. Works via URL or direct text input. Reports back an itemized list of issues.
 - [**CSS Validator:**](https://jigsaw.w3.org/css-validator/) Ensures a given stylesheet is valid CSS or not. Works via URL or drirect text input. Reports back an itemized list of issues.
 - [**Flexbox Frogger:**](https://flexboxfroggy.com/) Game that introduces and teaches the fundementals of [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox).
