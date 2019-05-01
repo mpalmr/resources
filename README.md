@@ -12,7 +12,7 @@ This repository is a collection of all the resources and useful links me and oth
     - [Git](#git)
     - [Troubleshooting](#troubleshooting)
 - [Miscellaneous](#miscellaneous)
-	- [Resource Lists](#resources-lists)
+	- [Big Lists](#big-lists)
 ***
 
 
@@ -25,8 +25,9 @@ This repository is a collection of all the resources and useful links me and oth
 - [**CSS Validator:**](https://jigsaw.w3.org/css-validator/) Ensures a given stylesheet is valid CSS or not. Works via URL or drirect text input. Reports back an itemized list of issues.
 - [**Flexbox Frogger:**](https://flexboxfroggy.com/) Game that introduces and teaches the fundementals of [Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox).
 - [**Grid Garden:**](https://cssgridgarden.com/) Game that introduces and teaches the fundementals of [grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid).
-- [How to use the Fetch API to Get Data](https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data)
-- [Official React Tutorial](https://reactjs.org/tutorial/tutorial.html)
+- [**Codewars:**](https://www.codewars.com) Programming exercises and challenges.
+- [The Complete Illustrated Flexbox Tutorial](https://medium.freecodecamp.org/the-complete-illustrated-flexbox-tutorial-d35c085dbf35)
+- [CSS Grid Explained Quickly](https://www.youtube.com/watch?v=ojKbYz0iKQE)
 - [HTTP Status Code Cheat Sheet](https://www.restapitutorial.com/httpstatuscodes.html)
 - [HTTP Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
 
@@ -35,6 +36,7 @@ This repository is a collection of all the resources and useful links me and oth
 
 ## Tooling
 
+- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
 - [**Node Version Manager _(nvm)_:**](https://github.com/creationix/nvm/blob/master/README.md#installation-and-update) Recommended method of installing [Node.js and npm](https://nodejs.org). Allows you to easily switch between versions as well as lock a project down to a specific version using an [`.nvmrc` file](https://github.com/creationix/nvm#nvmrc).
 - [**Windows Subsystem for Linux _(WSL)_:**](https://docs.microsoft.com/en-us/windows/wsl/install-win10) I strongly recommend anybody on Windows 10 to start using WSL. If you're unsure which distrobution of Linux to run I recommend Ubuntu. This is not a resource hungry virtual machine. It will give you an environment much closer to what Linux and macOS users have and will reduce headaches moving forward.
 
@@ -88,8 +90,11 @@ This repository is a collection of all the resources and useful links me and oth
 	- [Adam P](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 
-### Resource Lists
+### Big Lists
 
-- [Free Programming Books](https://ebookfoundation.github.io/free-programming-books/free-programming-books.html)
-- [Free Programming Playgrounds](https://ebookfoundation.github.io/free-programming-books/free-programming-playgrounds.html)
 - [Public APIs](https://github.com/toddmotto/public-apis#index)
+- [**superhero.js:**](http://superherojs.com/#language) articles, videos, and presentations on JavaScript.
+- [Free Programming Playgrounds](https://ebookfoundation.github.io/free-programming-books/free-programming-playgrounds.html)
+- [**Frontend Case Studies:**](https://github.com/andrew--r/frontend-case-studies) A curated list of technical talks and articles about real-world enterprise frontend development.
+- [**Awesome Lists:**](https://github.com/sindresorhus/awesome/) List of lists.
+- [Free Programming Books](https://ebookfoundation.github.io/free-programming-books/free-programming-books.html)

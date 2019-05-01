@@ -16,7 +16,7 @@ To install any of these libraries run `npm install <package-name>` or `npm insta
 	- [Polyfills](#polyfills)
 - [Node](#nodejs)
 	- [npm Script Helpers](#npm-script-helpers)
-	- [Express](#backend)
+	- [Express](#express)
 	- [Databases](#databases)
 	- [Cryptography](#cryptography)
 - [Testing](#testing)
@@ -211,6 +211,7 @@ Implements standard features in environments that do not have them implemented y
 - [**passport:**](http://www.passportjs.org/) Passport is authentication middleware. I recommend [express-session](https://www.npmjs.com/package/express-session) unless you plan on having multiple methods of authentication _(eg: Facebook and in-house)_.
 - [**http-proxy-middleware:**](https://www.npmjs.com/package/http-proxy-middleware) Configurable HTTP proxy.
 - [**morgan:**](https://www.npmjs.com/package/morgan) Request logger.
+- [**method-override:**](https://www.npmjs.com/package/method-override) Lets you use HTTP verbs such as PUT or DELETE in places where the client doesn't support it. This is commonly encountered when doing non-AJAX form submissions as they only support GET and POST requests.
 
 
 ### Databases

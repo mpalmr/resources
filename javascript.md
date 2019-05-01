@@ -5,16 +5,19 @@ TODO
 
 ***
 - [Full Tutorials](#full-tutorials)
+- [Exercises](#exercises)
 - [Language Concepts](#language-concepts)
 	- [Promises](#promises)
 	- [Modules](#modules)
 	- [Error Handling](#error-handling)
 	- [Prototypes](#prototypes)
-- [Functional Programming](#functional-programming)
-- [Backend](#backend)
+- [Frontend](#frontend)
+	- [React](#react)
+- [Node.js](#nodejs)
 	- [Express](#express)
 	- [Templating Languages](#templating-languages)
 - [Coding Style](#coding-style)
+- [Functional Programming](#functional-programming)
 - [Miscellaneous](#miscellaneous)
 ***
 
@@ -24,9 +27,18 @@ TODO
 ## Full Tutorials
 
 - [The Modern Javascript Tutorial](https://javascript.info/)
+- [JavaScript for Cats](http://jsforcats.com/)
 - [Eloquent JavaScript <small>3<sup>rd</sup> edition</small>](https://eloquentjavascript.net/)
 - [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
 - [**A re-introduction to JavaScript:**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript) useful for those new to JavaScript but not new to programming.
+
+
+
+
+## Exercises
+
+- [**JavaScript 30:**](https://javascript30.com/) Build 30 things in 30 days with 30 tutorials.
+- [Promise this won't Hurt _(Promises)_](https://github.com/stevekane/promise-it-wont-hurt)
 
 
 
@@ -35,12 +47,21 @@ TODO
 
 ### Promises
 
-- [**Promises, async/await _(javascript.info)_:**](https://javascript.info/async) Tutorial
-- [**JavaScript Promises for Dummies:**](https://scotch.io/tutorials/javascript-promises-for-dummies) Tutorial
-- [**An incremental tutorial on promises in javascript:**](https://www.sohamkamani.com/blog/2016/08/28/incremenal-tutorial-to-promises/) Tutorial
-- [**JavaScript: Promises explained with simple real life analogies**](https://codeburst.io/javascript-promises-explained-with-simple-real-life-analogies-dd6908092138)
-- [**Promises for asynchronous programming _(exploringjs.com)_:**](http://exploringjs.com/es6/ch_promises.html) Very in depth walkthrough of promises
-- [**Asynchronous Javascript using Async - Await _(scotch.io)_:**](https://scotch.io/tutorials/asynchronous-javascript-using-async-await) `async` / `await` syntax tutorial
+- [javascript.info](https://javascript.info/async)
+- [JavaScript Promises for Dummies](https://scotch.io/tutorials/javascript-promises-for-dummies)
+- [Promise Cookbook](https://github.com/mattdesl/promise-cookbook)
+- [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/ch3.md)
+- [An incremental tutorial on promises in javascript](https://www.sohamkamani.com/blog/2016/08/28/incremenal-tutorial-to-promises/)
+- [JavaScript Promises: an Introduction _(Google)_](https://developers.google.com/web/fundamentals/primers/promises)
+- [Google on `async` / `await`](https://developers.google.com/web/fundamentals/primers/async-functions)
+- [Asynchronous Javascript using `async` / `await` _(scotch.io)_](https://scotch.io/tutorials/asynchronous-javascript-using-async-await)
+- [ES6 Promises in Depth](https://ponyfoo.com/articles/es6-promises-in-depth)
+
+#### Advanced
+- [**We have a problem with promises:**](https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html) Avoiding and identifying common mistakes people make with promises
+
+#### Exercises
+- [Promise this won't Hurt](https://github.com/stevekane/promise-it-wont-hurt)
 
 
 ### Modules
@@ -68,16 +89,24 @@ TODO
 
 
 
-## Functional Programming
+## Frontend
 
-- [Functional Programming in JavaScript – <small>Fun Fun Function _(Video Series)_</small>](https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
-- [Jordan Harbands Array Iteration Thoughts](https://gist.github.com/ljharb/58faf1cfcb4e6808f74aae4ef7944cff#file-array_iteration_thoughts-md)
-
+- [Using Fetch _(MDN)_](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 
 
+### React
 
-## Backend
+- [Official Tutorial](https://reactjs.org/tutorial/tutorial.html)
+- [React Crash Course _(YouTube tutorial)_](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+- [React Portfolio Project _(YouTube tutorial)_](https://www.youtube.com/watch?list=PLD9SRxG6ST3HoJhkYdj0w4WEzUM_RBTKt)
 
+
+
+
+## Node.js
+
+- [Official Debugging Guide](https://nodejs.org/en/docs/guides/debugging-getting-started/)
+- [The Absolute Easiest Way to Debug Node.js — with VS Code](https://itnext.io/the-absolute-easiest-way-to-debug-node-js-with-vscode-2e02ef5b1bad)
 - [Node.js Everywhere with Environment Variables!](https://medium.com/the-node-js-collection/making-your-node-js-work-everywhere-with-environment-variables-2da8cdf6e786)
 
 
@@ -127,6 +156,17 @@ Dynamically generate HTML for HTTP servers _(eg: Express)_.
 
 
 
+## Functional Programming
+
+- [Functional Programming in JavaScript – <small>Fun Fun Function _(Video Series)_</small>](https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
+- [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/)
+- [JavaScript’s Map, Reduce, and Filter](https://danmartensen.svbtle.com/javascripts-map-reduce-and-filter)
+- [Jordan Harbands Array Iteration Thoughts](https://gist.github.com/ljharb/58faf1cfcb4e6808f74aae4ef7944cff#file-array_iteration_thoughts-md)
+
+
+
+
 ## Miscellaneous
 
+- [**Simplified JavaScript Jargon:**](https://github.com/HugoGiraudel/SJSJ) a community-driven attempt at explaining the loads of buzzwords making the current JavaScript ecosystem in a few simple words. The idea is not to replace individual documentations, but to act as some kind of glossary that can be easily referenced.
 - [**Rest parameters and spread operator:**](https://javascript.info/rest-parameters-spread-operator) Operator used to merge arrays and objects `...`.
