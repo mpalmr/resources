@@ -83,6 +83,7 @@ This repository is a collection of all the resources and useful links me and oth
 
 ## Miscellaneous
 
+- [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)
 - [A re-introduction to JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 - [Rico's Cheatsheets](https://devhints.io/)
 - **Markdown Cheatsheet's**
