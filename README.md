@@ -14,6 +14,7 @@ This repository is a collection of all the resources and useful links me and oth
 - [Miscellaneous](#miscellaneous)
 	- [Big Lists](#big-lists)
 - [**Needs Organization**](https://github.com/mpalmr/resources/blob/master/needs-organzation.md)
+- [**Needs Vetting**](https://github.com/mpalmr/resources/blob/master/needs-vetting.md)
 ***
 
 
