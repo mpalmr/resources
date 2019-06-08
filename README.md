@@ -13,6 +13,7 @@ This repository is a collection of all the resources and useful links me and oth
     - [Troubleshooting](#troubleshooting)
 - [Miscellaneous](#miscellaneous)
 	- [Big Lists](#big-lists)
+- [**Needs Organization**](https://github.com/mpalmr/resources/blob/master/needs-organzation.md)
 ***
 
 
