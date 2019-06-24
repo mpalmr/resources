@@ -97,6 +97,7 @@ TODO
 ### React
 
 - [Official Tutorial](https://reactjs.org/tutorial/tutorial.html)
+- [Kent C. Dodds Introduction to JavaScript](https://www.youtube.com/watch?v=SAIdyBFHfVU)
 - [React Crash Course _(YouTube tutorial)_](https://www.youtube.com/watch?v=Ke90Tje7VS0)
 - [React Portfolio Project _(YouTube tutorial)_](https://www.youtube.com/watch?list=PLD9SRxG6ST3HoJhkYdj0w4WEzUM_RBTKt)
 
