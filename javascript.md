@@ -160,6 +160,7 @@ Dynamically generate HTML for HTTP servers _(eg: Express)_.
 ## Functional Programming
 
 - [Functional Programming in JavaScript – <small>Fun Fun Function _(Video Series)_</small>](https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
+- [Map, Filter, and Reduce &ndash; Animated](https://medium.com/@js_tut/map-filter-and-reduce-animated-7fe391a35a47)
 - [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/)
 - [JavaScript’s Map, Reduce, and Filter](https://danmartensen.svbtle.com/javascripts-map-reduce-and-filter)
 - [Jordan Harbands Array Iteration Thoughts](https://gist.github.com/ljharb/58faf1cfcb4e6808f74aae4ef7944cff#file-array_iteration_thoughts-md)
