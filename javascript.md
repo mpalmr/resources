@@ -138,6 +138,7 @@ Dynamically generate HTML for HTTP servers _(eg: Express)_.
 
 ## Coding Style
 
+- [JavaScript Naming Conventions](https://www.robinwieruch.de/javascript-naming-conventions)
 - [eslint](https://eslint.org/)
     - [Recommended Style Guide](https://www.npmjs.com/package/eslint-config-airbnb-base)
 		- [`.eslintrc.js`](https://github.com/mpalmr/resources/blob/master/config-resources/eslint/eslint-config-airbnb-base.js)
