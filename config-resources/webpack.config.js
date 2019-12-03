@@ -3,8 +3,6 @@
 const path = require('path');
 const webpack = require('webpack');
 const mergeConfig = require('webpack-merge');
-const CaseSensitivePlugin = require('case-sensitive-webpack-plugin');
-const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
 const dirs = {
   src: path.resolve('src'),
@@ -16,7 +14,6 @@ const dirs = {
 const base = {
   context: dirs.src,
   entry: [
-    '@babel/polyfill',
     'whatwg-fetch',
     'url-polyfill',
     './index.js',
@@ -41,10 +38,6 @@ const base = {
 
   plugins: [
     new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
-    new CaseSensitivePlugin(),
-    new FaviconsWebpackPlugin({
-      logo: path.join(dirs.assets, 'favicon.png'),
-    }),
   ],
 };
 
