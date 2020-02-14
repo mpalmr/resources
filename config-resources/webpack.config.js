@@ -44,10 +44,7 @@ const base = {
 
 const environments = {
   development: {
-    mode: 'development',
-    plugins: [
-      new webpack.HotModuleReplacementPlugin(),
-    ],
+    mode: 'development'
   },
 
   production: { mode: 'production' },
